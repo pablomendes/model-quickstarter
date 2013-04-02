@@ -9,8 +9,13 @@ If you have OpenNLP models, add them to your language folder and add the followi
 
     ./index_db.sh -o nl wdir nl_NL nl/stopwords.list Dutch models/nl
 
-This will create a Spotlight model in `models/nl`. If you do not have OpenNLP models, only add a stopwords file to your 
+This will create a DBpedia Spotlight model (for the DB-backend) in `models/nl`. If you do not have OpenNLP models, only add a stopwords file to your 
 language folder and add the following to run.sh:
 
 
     ./index_db.sh wdir fr_FR fr/stopwords.list French models/fr
+
+
+## Running on EC2
+
+We also added a setup.sh file that we use to automate our setup when we are running this on EC2.
