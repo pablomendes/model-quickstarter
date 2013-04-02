@@ -1,4 +1,5 @@
 #!/bin/bash
+source ~/.bashrc
 
 wget -q https://raw.github.com/dbpedia-spotlight/dbpedia-spotlight/master/bin/index_db.sh
 chmod +x index_db.sh
