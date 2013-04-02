@@ -1,8 +1,9 @@
+# Checking versions of hadoop and pig
+pig -version
+hadoop version
 # We use elinks to look at the job tracker and screen to collaboratively debug stuff
 sudo apt-get install elinks
 sudo apt-get install screen
-# quickstarter has the commands needed to automate the creation of several models
-git clone https://github.com/jodaiber/model-quickstarter.git
 # some dependencies require maven3. will install
 sudo mkdir -p /opt/tools
 sudo chown hadoop /opt/tools
